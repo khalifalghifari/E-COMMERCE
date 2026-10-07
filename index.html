@@ -1,0 +1,2570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hedSet</title>
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="main.css">
+</head>
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
+            <div class="container">
+                <a href="" class="navbar-brand fw-bold fs-4" id="logo">
+                    <i class="bi bi-music-note-beamed" id=""></i>
+                    Hedset
+                </a>
+                <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarToko"
+            aria-controls="navbarToko"
+            aria-expanded="false"
+            aria-label="Toogle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse" id="navbarToko">
+                    <ul class="navbar-nav mb-2 mx-auto mb-lg-0 gap-3">
+                        <li class="nav-item"> <a href="#Home" class="nav-link">Home</a></li>
+                        
+                        <li class="nav-item"> <a href="#Product" class="nav-link">Product</a></li>
+                        <li class="nav-item"> <a href="#About" class="nav-link">Tentang</a></li>
+                    </ul>
+                    <div class="d-flex gap-1">
+                        <button class="btn btn-light"
+                        data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasRight"
+                        aria-controls="offcanvasRight"
+                        >
+                            <i class="bi bi-cart-fill"></i>
+                        </button>
+                        <button class="btn btn-outline-primary" id="bReg">
+    Register
+</button>
+
+<button class="btn btn-outline-primary" id="bLog">
+    <i class="bi bi-box-arrow-in-right"></i>
+    Login
+</button>
+                        <button class="btn btn-primary"
+                        data-bs-toggle="offcanvas" 
+                        data-bs-target="#appearanceOffcanvas" 
+                        aria-controls="appearanceOffcanvas"
+                        >
+                            <i class="bi bi-gear"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://www.digimap.co.id/cdn/shop/files/0788-APPMXP63ID-A-2.jpg?v=1733998445&width=823" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://kineraaudio.com/cdn/shop/files/p3.png?v=1776756994&width=480" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://www.sony.co.id/image/c4b73b343fced737af5b2c84eefc3e48?fmt=pjpeg&wid=165&bgcolor=FFFFFF&bgc=FFFFFF" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="false"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <section class="py-5 container" id="Home">
+        <div class="container"></div>
+             <class class="row align-items-center">
+                <div class="col-12 col-lg-6">
+                    <span class="badge fs-5 text-bg-primary mb-3">Selamat Datang Di Hedset</span>
+                    <h1 class="fw-bold display-4">Good Quality
+                        <br> 
+                    <span class="text-primary">Good Audio</span>
+                    </h1>
+                    <p class="text-secondary lead">hedSet menyediakan beragai macam produk audio 
+                        <br> berkualitas tinggi</p>
+                    <a href="" class="btn btn-primary btn-lg"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight">Belanja Sekarang</a>
+                    <a href="#Product" class=" btn btn-outline-dark btn-lg">lihat Produk
+                        <i class="bi bi-arrow-down-right"></i>
+                    </a>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <img src="https://kineraaudio.com/cdn/shop/files/DSCF4958_1__resized.jpg?v=1788417919&width=2400" alt="" class="founded-4 shadow image-fluid" id="hero-img">
+                </div>
+            </class>
+        </section>
+        <section class="py-5" id="product-row">
+            <div class="container">
+                <h2 class="fw-bold">Produk Unggulan Kami</h2>
+                <div class="row mt-4">
+
+    <div class="col-12 col-md-6 col-lg-3 mb-4">
+        <div class="card" style="width: 18rem;">
+            <a href="#Product" class="featured-product" data-category="iem">
+                <img src="https://kineraaudio.com/cdn/shop/files/Verdandi_3x_ede644d3-c321-4812-86d8-bb357eda5bd2.png?v=1778557625&width=900"
+                     class="card-img-top"
+                     alt="Verdandi"
+                     id="verdandi">
+            </a>
+
+            <div class="card-img-overlay" id="verdandi">
+                <h5 class="card-title">Verdandi</h5>
+                <p class="card-text">$1,200</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-3 mb-4">
+        <div class="card" style="width: 18rem;" ID="mimisbrunnr-card">
+            <a href="#Product" class="featured-product" data-category="iem">
+                <img src="https://kineraaudio.com/cdn/shop/files/Mimisbrunnr-background-removed-under-24MP.png?v=1784271057&width=900"
+                     class="card-img-top"
+                     alt="Mimisbrunnr"
+                     id="mimisbrunnr-img">
+            </a>
+
+            <div class="card-img-overlay" id="mimisbrunnr-overlay">
+                <h5 class="card-title">Mimisbrunnr</h5>
+                <p class="card-text">$799</p>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div class="col-12 col-md-6 col-lg-3 mb-4">
+        <div class="card" style="width: 18rem;">
+            <a href="#Product" class="featured-product" data-category="tws">
+                <img src="https://www.digimap.co.id/cdn/shop/files/0788-APPMFHP4ID-A-1.jpg?v=1762255013&width=823"
+                     class="card-img-top"
+                     alt="AirPods Pro 3"
+                     id="pro-3-img">
+            </a>
+
+            <div class="card-img-overlay">
+                <h5 class="card-title">AirPods Pro 3</h5>
+                <p class="card-text">$273</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-3 mb-4">
+        <div class="card" style="width: 18rem;">
+            <a href="#Product" class="featured-product" data-category="tws">
+                <img src="https://www.digimap.co.id/cdn/shop/files/AirPods_Pro_2nd_Gen_with_USB-C_PDP_Image_Position-1__global_b70b6a15-0d34-4772-88d5-0d0d880eae96.jpg?v=1717742680&width=823"
+                     class="card-img-top"
+                     alt="AirPods Pro 2"
+                     id="pro-2nd-img">
+            </a>
+
+            <div class="card-img-overlay">
+                <h5 class="card-title">AirPods Pro (2nd Generation)</h5>
+                <p class="card-text">$173</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+            </div>
+        </section>
+<section class="py-5" id="Product">
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <span class="badge text-bg-primary">
+                Pilihan Terbaik Kami
+            </span>
+
+            <h2 class="fw-bold">
+                Temukan Audio Favoritmu
+            </h2>
+
+            <p class="text-secondary">
+                Temukan berbagai pilihan IEM, TWS, dan headset untuk menemani aktivitasmu.
+            </p>
+
+            <div class="d-flex justify-content-center flex-wrap gap-2 mt-4">
+
+                <button type="button"
+                        class="btn btn-primary category-btn active"
+                        data-category="iem">
+                    In Ear Monitor
+                </button>
+
+                <button type="button"
+                        class="btn btn-outline-primary category-btn"
+                        data-category="tws">
+                    True Wireless Stereo
+                </button>
+
+                <button type="button"
+                        class="btn btn-outline-primary category-btn"
+                        data-category="headset">
+                    Headset
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- IEM -->
+        <div class="product-category" id="category-iem">
+            <div class="row justify-content-center">
+                        <div class="col-12 col-md-6 col-lg-4 mb-4">
+                           <div class="card" style="width: 18rem;">
+                            <img src="https://kineraaudio.com/cdn/shop/files/Verdandi_3x_ede644d3-c321-4812-86d8-bb357eda5bd2.png?v=1778557625&width=900" class="card-img-top" alt="..." id="verdandi">
+                            <div class="card-body">
+                                <h5 class="card-title">Verdandi</h5>
+                                <p class="card-text">Premium IEM dengan bass immersive, vokal ekspresif, dan detail suara yang refined.</p>
+                                <button class="btn btn-primary"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modalVerdandi"> <i class="pi pi-eye"></i> Detail Produk</button>
+                            </div>
+                           </div>
+                        </div>
+                        
+                        <div class="col-12 col-md-6 col-lg-4 mb-4">
+                           <div class="card" style="width: 18rem;" id="body-minisbur">
+                            <img src="https://kineraaudio.com/cdn/shop/files/Mimisbrunnr-background-removed-under-24MP.png?v=1784271057&width=900" class="card-img-top" alt="..." id="minisbur">
+                            <div class="card-body">
+                                <h5 class="card-title" id="minisbur-title">Mimisbrunnr</h5>
+                                <p class="card-text">Hybrid IEM dengan karakter warm, bass berisi, vokal natural, dan treble yang smooth.</p>
+                                <button class="btn btn-primary"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modalMimisbrunnr"> <i class="pi pi-eye"></i> Detail Produk</button>
+                            </div>
+                           </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-4 mb-4">
+                           <div class="card" style="width: 18rem;" id="body-minisbur">
+                            <img src="https://kineraaudio.com/cdn/shop/files/LOKI_DM_3x_47a8cbf0-c343-45b0-bfac-9c52f6315ad4.png?v=1778557625&width=1400" class="card-img-top" alt="..." id="LOKI Divine Mark">
+                            <div class="card-body">
+                                <h5 class="card-title" id="LOKI-Divine-Mark-title">LOKI Divine Mark</h5>
+                                <p class="card-text">Flagship IEM dengan multi-driver, detail suara tinggi, bass powerful, dan vokal yang jernih untuk pengalaman audio immersive.</p>
+                                <button class="btn btn-primary"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modalLoki"> <i class="pi pi-eye"></i> Detail Produk</button>
+                            </div>
+                           </div>
+                        </div>
+
+            </div>
+        </div>
+
+
+        <!-- TWS -->
+        <div class="product-category d-none" id="category-tws">
+                    <div class="row justify-content-center">
+
+                        <div class="col-12 col-md-6 col-lg-4 mb-4">
+                           <div class="card" style="width: 18rem;" id="body-airpods-pro-3">
+                            <img src="https://www.digimap.co.id/cdn/shop/files/0788-APPMFHP4ID-A-1.jpg?v=1762255013&width=823" class="card-img-top" alt="..." id="AirPods-Pro-3">
+                            <div class="card-body">
+                                <h5 class="card-title" id="airpods-pro-3-title">AirPods Pro 3</h5>
+                                <p class="card-text">AirPods Pro 3 dengan ANC terbaik, sensor detak jantung, Transparansi, dan baterai hingga 10 jam.</p>
+                                <button class="btn btn-info"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modalAirPodsPro3" id="pro-3nd"> <i class="pi pi-eye"></i> Detail Produk</button>
+                            </div>
+                           </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-4 mb-4">
+                           <div class="card" style="width: 18rem;" id="body-airpods-pro-2nd-generation">
+                            <img src="https://www.digimap.co.id/cdn/shop/files/AirPods_Pro_2nd_Gen_with_USB-C_PDP_Image_Position-1__global_b70b6a15-0d34-4772-88d5-0d0d880eae96.jpg?v=1717742680&width=823" class="card-img-top" alt="..." id="AirPods-Pro-2nd-Generation">
+                            <div class="card-body">
+                                <h5 class="card-title">AirPods Pro (2nd Generation)</h5>
+                                <p class="card-text">AirPods Pro (2nd Generation) dengan ANC terbaik, sensor detak jantung, Transparansi, dan baterai hingga 10 jam.</p>
+                                <button class="btn btn-info"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modalAirPodsPro2" id="pro-2nd"> <i class="pi pi-eye"></i> Detail Produk</button>
+                            </div>
+                           </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-4 mb-4">
+                           <div class="card" style="width: 18rem;" id="body-airpods-pro-2nd-generation">
+                            <img src="https://www.digimap.co.id/cdn/shop/files/0788-APPMXP63ID-A-1.jpg?v=1733998445&width=823" class="card-img-top" alt="..." id="AirPods-4">
+                            <div class="card-body" id="airpods-4">
+                                <h5 class="card-title">AirPods 4</h5>
+                                <p class="card-text">AirPods 4 dengan Isolasi Suara, Audio Spasial Personal, dan desain nyaman untuk dipakai sepanjang hari.</p>
+                                <button class="btn btn-info"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modalAirPods4" id="pro-2nd"> <i class="pi pi-eye"></i> Detail Produk</button>
+                            </div>
+                           </div>
+                        </div>
+
+                    </div>
+        </div>
+
+
+        <!-- HEADSET -->
+        <div class="product-category d-none" id="category-headset">
+                    <div class="row justify-content-center">
+
+                        <div class="col-12 col-md-6 col-lg-4 mb-4">
+                           <div class="card" style="width: 18rem;" id="body-airpods-pro-3">
+                            <img src="https://www.sony.co.id/image/c4b73b343fced737af5b2c84eefc3e48?fmt=pjpeg&wid=165&bgcolor=FFFFFF&bgc=FFFFFF" class="card-img-top" alt="..." id="AirPods-Pro-3">
+                            <div class="card-body">
+                                <h5 class="card-title" id="MDR-Z1R-title">MDR-Z1R</h5>
+                                <p class="card-text">Flagship headphone dengan suara detail dan luas, bass powerful, serta vokal yang jernih untuk pengalaman audio yang immersive.</p>
+                                <button class="btn btn-primary"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modalMDRZ1R" id="pro-3nd"> <i class="pi pi-eye"></i> Detail Produk</button>
+                            </div>
+                           </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-4 mb-4">
+                           <div class="card" style="width: 18rem;" id="body-airpods-pro-2nd-generation">
+                            <img src="https://sony.scene7.com/is/image/sonyglobalsolutions/1000X_THE_COLLEXION_primary_image_black?$mediaCarouselSmall$&fmt=png-alpha" class="card-img-top" alt="..." id="AirPods-Pro-2nd-Generation">
+                            <div class="card-body" id="sony-collection">
+                                <h5 class="card-title" id="1000X-THE-COLLEXION-title">1000X THE COLLEXION</h5>
+                                <p class="card-text">Headphone premium Sony dengan noise cancelling canggih, suara berkualitas tinggi, dan kenyamanan untuk penggunaan sepanjang hari.</p>
+                                <button class="btn btn-primary"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modal1000X" id="pro-2nd"> <i class="pi pi-eye"></i> Detail Produk</button>
+                            </div>
+                           </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-4 mb-4">
+                           <div class="card" style="width: 18rem;" id="body-airpods-pro-2nd-generation">
+                            <img src="https://sony.scene7.com/is/image/sonyglobalsolutions/WH-ULT900N_Primary_image_Offwhite?$mediaCarouselSmall$&fmt=png-alpha" class="card-img-top" alt="" id="AirPods-Pro-2nd-Generation"> 
+                            <div class="card-body"> 
+                                <h5 class="card-title">ULT WEAR</h5> 
+                                <p class="card-text">Headphone Sony dengan bass powerful, noise cancelling, dan kenyamanan tinggi untuk menikmati musik dengan lebih immersive.</p> 
+                                <button class="btn btn-primary" 
+                                data-bs-toggle="modal" 
+                                data-bs-target="#modalULTWear" id="pro-2nd"> <i class="pi pi-eye"></i> Detail Produk</button> 
+                            </div> 
+                           </div> 
+                        </div> 
+ 
+                    </div> 
+        </div>
+
+    </div>
+</section>
+<!-- =========================
+     MODAL VERDANDI
+========================= -->
+<div class="modal fade" id="modalVerdandi" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 class="modal-title">Verdandi</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body">
+
+                <img src="https://kineraaudio.com/cdn/shop/files/Verdandi_3x_ede644d3-c321-4812-86d8-bb357eda5bd2.png?v=1778557625&width=900"
+                     class="img-fluid mb-3"
+                     alt="Verdandi">
+
+                <p>
+                    Premium IEM dengan bass immersive, vokal ekspresif,
+                    dan detail suara yang refined.
+                </p>
+
+                <hr>
+
+                <h6 class="fw-bold mb-3">Karakter Suara</h6>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>Soundstage</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 90%"></div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>Detail</span>
+                        <span>95%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 95%"></div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>Bass</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 85%"></div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>Vocal</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 90%"></div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>Treble</span>
+                        <span>88%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 88%"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="modal-footer">
+                <button type="button"
+                        class="btn btn-secondary add-to-cart"
+                        data-product="Verdandi"
+                        data-price="1200">
+                    <i class="bi bi-cart"></i> Keranjang
+                </button>
+
+                <button type="button"
+                        class="btn btn-primary buy-now"
+                        data-product="Verdandi"
+                        data-price="1200">
+                    Beli Sekarang
+                </button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- =========================
+     MODAL MIMISBRUNNR
+========================= -->
+<div class="modal fade" id="modalMimisbrunnr" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 class="modal-title">Mimisbrunnr</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body">
+
+                <img src="https://kineraaudio.com/cdn/shop/files/Mimisbrunnr-background-removed-under-24MP.png?v=1784271057&width=900"
+                     class="img-fluid mb-3"
+                     alt="Mimisbrunnr">
+
+                <p>
+                    Hybrid IEM dengan karakter warm, bass berisi,
+                    vokal natural, dan treble yang smooth.
+                </p>
+
+                <hr>
+
+                <h6 class="fw-bold mb-3">Karakter Suara</h6>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>Soundstage</span>
+                        <span>82%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 82%"></div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>Detail</span>
+                        <span>88%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 88%"></div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>Bass</span>
+                        <span>92%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 92%"></div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>Vocal</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 90%"></div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>Treble</span>
+                        <span>78%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 78%"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="modal-footer">
+                <button type="button"
+                        class="btn btn-secondary add-to-cart"
+                        data-product="Mimisbrunnr"
+                        data-price="799">
+                    <i class="bi bi-cart"></i> Keranjang
+                </button>
+
+                <button type="button"
+                        class="btn btn-primary buy-now"
+                        data-product="Mimisbrunnr"
+                        data-price="799">
+                    Beli Sekarang
+                </button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- =========================
+     MODAL LOKI DIVINE MARK
+========================= -->
+<div class="modal fade" id="modalLoki" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 class="modal-title">LOKI Divine Mark</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body">
+
+                <img src="https://kineraaudio.com/cdn/shop/files/LOKI_DM_3x_47a8cbf0-c343-45b0-bfac-9c52f6315ad4.png?v=1778557625&width=1400"
+                     class="img-fluid mb-3"
+                     alt="LOKI Divine Mark">
+
+                <p>
+                    Flagship IEM dengan multi-driver, detail suara tinggi,
+                    bass powerful, dan vokal yang jernih untuk pengalaman
+                    audio immersive.
+                </p>
+
+                <hr>
+
+                <h6 class="fw-bold mb-3">Karakter Suara</h6>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>Soundstage</span>
+                        <span>98%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 98%"></div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>Detail</span>
+                        <span>99%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 99%"></div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>Bass</span>
+                        <span>94%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 94%"></div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>Vocal</span>
+                        <span>96%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 96%"></div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>Treble</span>
+                        <span>97%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 97%"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="modal-footer">
+                <button type="button"
+                        class="btn btn-secondary add-to-cart"
+                        data-product="LOKI Divine Mark"
+                        data-price="3399">
+                    <i class="bi bi-cart"></i> Keranjang
+                </button>
+
+                <button type="button"
+                        class="btn btn-primary buy-now"
+                        data-product="LOKI Divine Mark"
+                        data-price="3399">
+                    Beli Sekarang
+                </button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- =========================
+     MODAL AIRPODS PRO 3
+========================= -->
+<div class="modal fade" id="modalAirPodsPro3" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 class="modal-title">AirPods Pro 3</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body">
+
+                <img src="https://www.digimap.co.id/cdn/shop/files/0788-APPMFHP4ID-A-1.jpg?v=1762255013&width=823"
+                     class="img-fluid mb-3"
+                     alt="AirPods Pro 3">
+
+                <p>
+                    AirPods Pro 3 dengan ANC terbaik, sensor detak jantung,
+                    Transparansi, dan baterai hingga 10 jam.
+                </p>
+
+                <hr>
+
+                <h6 class="fw-bold mb-3">Karakter Suara</h6>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>Soundstage</span>
+                        <span>88%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 88%"></div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>Detail</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 90%"></div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>Bass</span>
+                        <span>82%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 82%"></div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>Vocal</span>
+                        <span>88%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 88%"></div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>Treble</span>
+                        <span>86%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 86%"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="modal-footer">
+                <button type="button"
+                        class="btn btn-secondary add-to-cart"
+                        data-product="AirPods Pro 3"
+                        data-price="273">
+                    <i class="bi bi-cart"></i> Keranjang
+                </button>
+
+                <button type="button"
+                        class="btn btn-primary buy-now"
+                        data-product="AirPods Pro 3"
+                        data-price="273">
+                    Beli Sekarang
+                </button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- =========================
+     MODAL AIRPODS PRO 2
+========================= -->
+<div class="modal fade" id="modalAirPodsPro2" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 class="modal-title">AirPods Pro (2nd Generation)</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body">
+
+                <img src="https://www.digimap.co.id/cdn/shop/files/AirPods_Pro_2nd_Gen_with_USB-C_PDP_Image_Position-1__global_b70b6a15-0d34-4772-88d5-0d0d880eae96.jpg?v=1717742680&width=823"
+                     class="img-fluid mb-3"
+                     alt="AirPods Pro 2">
+
+                <p>
+                    AirPods Pro (2nd Generation) dengan ANC terbaik,
+                    Transparansi, dan baterai yang tahan lama untuk
+                    penggunaan sehari-hari.
+                </p>
+
+                <hr>
+
+                <h6 class="fw-bold mb-3">Karakter Suara</h6>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>Soundstage</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 85%"></div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>Detail</span>
+                        <span>87%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 87%"></div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>Bass</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 80%"></div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>Vocal</span>
+                        <span>86%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 86%"></div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>Treble</span>
+                        <span>84%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 84%"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="modal-footer">
+                <button type="button"
+                        class="btn btn-secondary add-to-cart"
+                        data-product="AirPods Pro (2nd Generation)"
+                        data-price="173">
+                    <i class="bi bi-cart"></i> Keranjang
+                </button>
+
+                <button type="button"
+                        class="btn btn-primary buy-now"
+                        data-product="AirPods Pro (2nd Generation)"
+                        data-price="173">
+                    Beli Sekarang
+                </button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- =========================
+     MODAL AIRPODS 4
+========================= -->
+<div class="modal fade" id="modalAirPods4" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 class="modal-title">AirPods 4</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body">
+
+                <img src="https://www.digimap.co.id/cdn/shop/files/0788-APPMXP63ID-A-1.jpg?v=1733998445&width=823"
+                     class="img-fluid mb-3"
+                     alt="AirPods 4">
+
+                <p>
+                    AirPods 4 dengan isolasi suara, Audio Spasial Personal,
+                    dan desain nyaman untuk dipakai sepanjang hari.
+                </p>
+
+                <hr>
+
+                <h6 class="fw-bold mb-3">Karakter Suara</h6>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>Soundstage</span>
+                        <span>82%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 82%"></div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>Detail</span>
+                        <span>84%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 84%"></div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>Bass</span>
+                        <span>76%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 76%"></div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>Vocal</span>
+                        <span>84%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 84%"></div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>Treble</span>
+                        <span>82%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 82%"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="modal-footer">
+                <button type="button"
+                        class="btn btn-secondary add-to-cart"
+                        data-product="AirPods 4"
+                        data-price="134">
+                    <i class="bi bi-cart"></i> Keranjang
+                </button>
+
+                <button type="button"
+                        class="btn btn-primary buy-now"
+                        data-product="AirPods 4"
+                        data-price="134">
+                    Beli Sekarang
+                </button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- =========================
+     MODAL MDR-Z1R
+========================= -->
+<div class="modal fade" id="modalMDRZ1R" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 class="modal-title">MDR-Z1R</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body">
+
+                <img src="https://www.sony.co.id/image/c4b73b343fced737af5b2c84eefc3e48?fmt=pjpeg&wid=165&bgcolor=FFFFFF&bgc=FFFFFF"
+                     class="img-fluid mb-3"
+                     alt="MDR-Z1R">
+
+                <p>
+                    Flagship headphone dengan suara detail dan luas,
+                    bass powerful, serta vokal yang jernih untuk
+                    pengalaman audio yang immersive.
+                </p>
+
+                <hr>
+
+                <h6 class="fw-bold mb-3">Karakter Suara</h6>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>Soundstage</span>
+                        <span>99%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 99%"></div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>Detail</span>
+                        <span>99%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 99%"></div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>Bass</span>
+                        <span>96%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 96%"></div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>Vocal</span>
+                        <span>97%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 97%"></div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>Treble</span>
+                        <span>98%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 98%"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="modal-footer">
+                <button type="button"
+                        class="btn btn-secondary add-to-cart"
+                        data-product="MDR-Z1R"
+                        data-price="1411">
+                    <i class="bi bi-cart"></i> Keranjang
+                </button>
+
+                <button type="button"
+                        class="btn btn-primary buy-now"
+                        data-product="MDR-Z1R"
+                        data-price="1411">
+                    Beli Sekarang
+                </button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- =========================
+     MODAL 1000X THE COLLEXION
+========================= -->
+<div class="modal fade" id="modal1000X" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 class="modal-title">1000X THE COLLEXION</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body">
+
+                <img src="https://sony.scene7.com/is/image/sonyglobalsolutions/1000X_THE_COLLEXION_primary_image_black?$mediaCarouselSmall$&fmt=png-alpha"
+                     class="img-fluid mb-3"
+                     alt="1000X THE COLLEXION">
+
+                <p>
+                    Headphone premium Sony dengan noise cancelling canggih,
+                    suara berkualitas tinggi, dan kenyamanan untuk penggunaan
+                    sepanjang hari.
+                </p>
+
+                <hr>
+
+                <h6 class="fw-bold mb-3">Karakter Suara</h6>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>Soundstage</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 90%"></div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>Detail</span>
+                        <span>92%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 92%"></div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>Bass</span>
+                        <span>94%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 94%"></div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>Vocal</span>
+                        <span>88%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 88%"></div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>Treble</span>
+                        <span>89%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 89%"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="modal-footer">
+                <button type="button"
+                        class="btn btn-secondary add-to-cart"
+                        data-product="1000X THE COLLEXION"
+                        data-price="615">
+                    <i class="bi bi-cart"></i> Keranjang
+                </button>
+
+                <button type="button"
+                        class="btn btn-primary buy-now"
+                        data-product="1000X THE COLLEXION"
+                        data-price="615">
+                    Beli Sekarang
+                </button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- =========================
+     MODAL ULT WEAR
+========================= -->
+<div class="modal fade" id="modalULTWear" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 class="modal-title">ULT WEAR</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body">
+
+                <img src="https://sony.scene7.com/is/image/sonyglobalsolutions/WH-ULT900N_Primary_image_Offwhite?$mediaCarouselSmall$&fmt=png-alpha"
+                     class="img-fluid mb-3"
+                     alt="ULT WEAR">
+
+                <p>
+                    Headphone Sony dengan bass powerful, noise cancelling,
+                    dan kenyamanan tinggi untuk menikmati musik dengan
+                    lebih immersive.
+                </p>
+
+                <hr>
+
+                <h6 class="fw-bold mb-3">Karakter Suara</h6>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>Soundstage</span>
+                        <span>84%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 84%"></div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>Detail</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 80%"></div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>Bass</span>
+                        <span>98%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 98%"></div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>Vocal</span>
+                        <span>82%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 82%"></div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span>Treble</span>
+                        <span>78%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 78%"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="modal-footer">
+                <button type="button"
+                        class="btn btn-secondary add-to-cart"
+                        data-product="ULT WEAR"
+                        data-price="167">
+                    <i class="bi bi-cart"></i> Keranjang
+                </button>
+
+                <button type="button"
+                        class="btn btn-primary buy-now"
+                        data-product="ULT WEAR"
+                        data-price="167">
+                    Beli Sekarang
+                </button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- ========================================================= -->
+<!-- MODAL NOTIFIKASI: BARANG MASUK KERANJANG -->
+<!-- ========================================================= -->
+
+<div class="modal fade"
+     id="cartAddedModal"
+     tabindex="-1"
+     aria-hidden="true">
+
+    <div class="modal-dialog modal-dialog-centered modal-sm">
+
+        <div class="modal-content">
+
+            <div class="modal-body text-center py-4">
+
+                <i class="bi bi-check-circle fs-1"></i>
+
+                <h5 class="mt-3 mb-1">
+                    Berhasil!
+                </h5>
+
+                <p class="mb-0">
+                    Barang dimasukkan ke keranjang!
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+<!-- ========================================================= -->
+<!-- OFFCANVAS KERANJANG -->
+<!-- ========================================================= -->
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasRightLabel">Keranjang</h5>
+
+    <button type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close">
+    </button>
+  </div>
+
+  <div class="offcanvas-body d-flex flex-column">
+
+    <!-- LIST PRODUK -->
+    <div id="cartItems" class="flex-grow-1">
+
+        <div id="emptyCart" class="text-center py-5 text-secondary">
+            <i class="bi bi-cart-x fs-1"></i>
+            <p class="mt-3 mb-0">Keranjang masih kosong</p>
+        </div>
+
+    </div>
+
+    <!-- CHECKOUT -->
+    <div class="border-top pt-3">
+
+        <!-- Voucher -->
+        <div class="mb-3">
+            <label for="voucherInput" class="form-label fw-semibold">
+                Kode Voucher
+            </label>
+
+            <div class="input-group">
+                <input type="text"
+                       class="form-control"
+                       id="voucherInput"
+                       placeholder="Masukkan kode voucher">
+
+                <button class="btn btn-outline-secondary"
+                        type="button"
+                        id="applyVoucher">
+                    Pakai
+                </button>
+            </div>
+
+            <small id="voucherMessage" class="d-block mt-2"></small>
+        </div>
+
+        <!-- Ringkasan -->
+        <div class="d-flex justify-content-between mb-2">
+            <span>Subtotal</span>
+            <span id="cartSubtotal">$0</span>
+        </div>
+
+        <div class="d-flex justify-content-between mb-2"
+             id="discountRow"
+             style="display: none !important;">
+
+            <span>Diskon 10%</span>
+            <span id="cartDiscount">-$0</span>
+        </div>
+
+        <div class="d-flex justify-content-between fw-bold fs-5 mb-3">
+            <span>Total</span>
+            <span id="cartTotal">$0</span>
+        </div>
+
+        <button type="button"
+                class="btn btn-primary w-100"
+                id="checkoutButton"
+                disabled>
+            <i class="bi bi-credit-card"></i>
+            Bayar
+        </button>
+
+    </div>
+
+</div>
+</div>
+
+<!-- ========================================================= -->
+<!-- MODAL LOGIN / REGISTER -->
+<!-- ========================================================= -->
+
+<div class="modal fade"
+     id="authModal"
+     tabindex="-1"
+     aria-hidden="true"
+     aria-labelledby="authModalLabel">
+
+    <div class="modal-dialog modal-dialog-centered">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+
+                <h5 class="modal-title" id="authModalLabel">
+                    Login
+                </h5>
+
+                <button type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close">
+                </button>
+
+            </div>
+
+            <form id="authForm">
+
+                <div class="modal-body">
+
+                    <div class="mb-3">
+                        <label for="authName"
+                               class="form-label">
+                            Nama
+                        </label>
+
+                        <input type="text"
+                               class="form-control"
+                               id="authName"
+                               required
+                               autocomplete="name">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="authEmail"
+                               class="form-label">
+                            Email
+                        </label>
+
+                        <input type="email"
+                               class="form-control"
+                               id="authEmail"
+                               required
+                               autocomplete="email">
+                    </div>
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <button type="submit"
+                            class="btn btn-primary"
+                            id="authSubmit">
+                        Masuk
+                    </button>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    let authMode = "Login";
+
+    const authModalElement = document.getElementById("authModal");
+    const authModal = new bootstrap.Modal(authModalElement);
+
+    const authForm = document.getElementById("authForm");
+    const authTitle = document.getElementById("authModalLabel");
+    const authSubmit = document.getElementById("authSubmit");
+
+    const authName = document.getElementById("authName");
+    const authEmail = document.getElementById("authEmail");
+
+    const loginButton = document.getElementById("bLog");
+    const registerButton = document.getElementById("bReg");
+
+
+    /* =========================
+       CEK USER
+    ========================= */
+
+    let currentUser =
+        JSON.parse(localStorage.getItem("hedsetUser")) || null;
+
+
+    /* =========================
+       UPDATE NAVBAR
+    ========================= */
+
+    function updateAuthUI() {
+
+        if (currentUser) {
+
+            loginButton.innerHTML =
+                `<i class="bi bi-person-fill"></i>
+                 Hai, ${currentUser.name.split(" ")[0]}`;
+
+            registerButton.textContent = "Logout";
+
+        } else {
+
+            loginButton.innerHTML =
+                `<i class="bi bi-box-arrow-in-right"></i>
+                 Login`;
+
+            registerButton.textContent = "Register";
+
+        }
+    }
+
+
+    /* =========================
+       BUKA LOGIN
+    ========================= */
+
+    loginButton.addEventListener("click", function () {
+
+        if (currentUser) {
+
+            alert(
+                "Kamu sudah login sebagai " +
+                currentUser.name
+            );
+
+            return;
+        }
+
+        authMode = "Login";
+
+        authTitle.textContent = "Login";
+        authSubmit.textContent = "Masuk";
+
+        authForm.reset();
+
+        authModal.show();
+
+    });
+
+
+    /* =========================
+       BUKA REGISTER
+    ========================= */
+
+    registerButton.addEventListener("click", function () {
+
+        if (currentUser) {
+
+            currentUser = null;
+
+            localStorage.removeItem("hedsetUser");
+
+            updateAuthUI();
+
+            alert("Kamu sudah keluar");
+
+            return;
+        }
+
+        authMode = "Register";
+
+        authTitle.textContent = "Register";
+        authSubmit.textContent = "Daftar";
+
+        authForm.reset();
+
+        authModal.show();
+
+    });
+
+
+    /* =========================
+       SUBMIT
+    ========================= */
+
+    authForm.addEventListener("submit", function (event) {
+
+        event.preventDefault();
+
+        const name = authName.value.trim();
+        const email = authEmail.value.trim();
+
+        currentUser = {
+            name: name,
+            email: email
+        };
+
+        localStorage.setItem(
+            "hedsetUser",
+            JSON.stringify(currentUser)
+        );
+
+        updateAuthUI();
+
+        authModal.hide();
+
+        if (authMode === "Login") {
+
+            alert(
+                `Selamat datang kembali, ${name}!`
+            );
+
+        } else {
+
+            alert(
+                `Akun dibuat, ${name}!`
+            );
+
+        }
+
+    });
+
+
+    /* =========================
+       JALANKAN SAAT WEBSITE DIBUKA
+    ========================= */
+
+    updateAuthUI();
+
+});
+</script>
+
+
+<script>
+let cart = [];
+let voucherApplied = false;
+
+const cartItems = document.getElementById("cartItems");
+const emptyCart = document.getElementById("emptyCart");
+
+const cartSubtotal = document.getElementById("cartSubtotal");
+const cartDiscount = document.getElementById("cartDiscount");
+const cartTotal = document.getElementById("cartTotal");
+
+const discountRow = document.getElementById("discountRow");
+const checkoutButton = document.getElementById("checkoutButton");
+
+const voucherInput = document.getElementById("voucherInput");
+const applyVoucher = document.getElementById("applyVoucher");
+const voucherMessage = document.getElementById("voucherMessage");
+
+
+/* =========================
+   MASUKKAN PRODUK KE KERANJANG
+========================= */
+
+document.querySelectorAll(".add-to-cart").forEach(button => {
+
+    button.addEventListener("click", function () {
+
+const productModalElement = this.closest(".modal");
+
+const productCard = document.querySelector(
+    `[data-bs-target="#${productModalElement.id}"]`
+)?.closest(".card");
+
+const productImage =
+    productCard?.querySelector("img")?.src || "";
+
+const product = {
+    name: this.dataset.product,
+    price: Number(this.dataset.price),
+    image: productImage,
+    quantity: 1
+};
+
+// Cek apakah produk sudah ada
+const existingProduct = cart.find(
+    item => item.name === product.name
+);
+
+if (existingProduct) {
+    existingProduct.quantity++;
+} else {
+    cart.push(product);
+}
+
+renderCart();
+
+// Modal produk
+const productModal =
+    bootstrap.Modal.getInstance(productModalElement);
+
+        const cartAddedModalElement =
+            document.getElementById("cartAddedModal");
+
+        const cartAddedModal =
+            bootstrap.Modal.getOrCreateInstance(
+                cartAddedModalElement
+            );
+
+        if (productModal) {
+
+            productModalElement.addEventListener(
+                "hidden.bs.modal",
+                function () {
+
+                    cartAddedModal.show();
+
+                    setTimeout(() => {
+                        cartAddedModal.hide();
+                    }, 1500);
+
+                },
+                { once: true }
+            );
+
+            productModal.hide();
+
+        } else {
+
+            cartAddedModal.show();
+
+            setTimeout(() => {
+                cartAddedModal.hide();
+            }, 1500);
+
+        }
+
+    });
+
+});
+
+
+/* =========================
+   RENDER KERANJANG
+========================= */
+
+function renderCart() {
+
+    if (cart.length === 0) {
+
+        cartItems.innerHTML = `
+            <div id="emptyCart"
+                 class="text-center py-5 text-secondary">
+
+                <i class="bi bi-cart-x fs-1"></i>
+
+                <p class="mt-3 mb-0">
+                    Keranjang masih kosong
+                </p>
+
+            </div>
+        `;
+
+        checkoutButton.disabled = true;
+
+        updateSummary();
+
+        return;
+    }
+
+
+    cartItems.innerHTML = "";
+
+    cart.forEach((item, index) => {
+
+        const itemElement = document.createElement("div");
+
+        itemElement.className =
+            "d-flex gap-3 border-bottom pb-3 mb-3";
+
+        itemElement.innerHTML = `
+
+            <img src="${item.image}"
+                 alt="${item.name}"
+                 style="
+                    width: 75px;
+                    height: 75px;
+                    object-fit: contain;
+                    border-radius: 10px;
+                    background: #f5f5f5;
+                 ">
+
+            <div class="flex-grow-1">
+
+                <div class="d-flex justify-content-between gap-2">
+
+                    <h6 class="mb-1">
+                        ${item.name}
+                    </h6>
+
+                    <button type="button"
+                            class="btn btn-sm text-danger remove-item"
+                            data-index="${index}"
+                            title="Hapus">
+
+                        <i class="bi bi-trash"></i>
+
+                    </button>
+
+                </div>
+
+                <div class="small text-secondary mb-2">
+                    $${item.price.toLocaleString()}
+                </div>
+
+                <div class="d-flex align-items-center justify-content-between">
+
+                    <div class="btn-group btn-group-sm">
+
+                        <button type="button"
+                                class="btn btn-outline-secondary decrease-quantity"
+                                data-index="${index}">
+                            −
+                        </button>
+
+                        <button type="button"
+                                class="btn btn-outline-secondary"
+                                disabled>
+                            ${item.quantity}
+                        </button>
+
+                        <button type="button"
+                                class="btn btn-outline-secondary increase-quantity"
+                                data-index="${index}">
+                            +
+                        </button>
+
+                    </div>
+
+                    <strong>
+                        $${(
+                            item.price * item.quantity
+                        ).toLocaleString()}
+                    </strong>
+
+                </div>
+
+            </div>
+        `;
+
+        cartItems.appendChild(itemElement);
+
+    });
+
+
+    checkoutButton.disabled = false;
+
+    updateSummary();
+}
+
+
+/* =========================
+   TAMBAH / KURANG JUMLAH
+========================= */
+
+cartItems.addEventListener("click", function (event) {
+
+    const increaseButton =
+        event.target.closest(".increase-quantity");
+
+    const decreaseButton =
+        event.target.closest(".decrease-quantity");
+
+    const removeButton =
+        event.target.closest(".remove-item");
+
+
+    if (increaseButton) {
+
+        const index =
+            Number(increaseButton.dataset.index);
+
+        cart[index].quantity++;
+
+        renderCart();
+    }
+
+
+    if (decreaseButton) {
+
+        const index =
+            Number(decreaseButton.dataset.index);
+
+        if (cart[index].quantity > 1) {
+
+            cart[index].quantity--;
+
+        } else {
+
+            cart.splice(index, 1);
+
+        }
+
+        renderCart();
+    }
+
+
+    if (removeButton) {
+
+        const index =
+            Number(removeButton.dataset.index);
+
+        cart.splice(index, 1);
+
+        renderCart();
+    }
+
+});
+
+
+/* =========================
+   HITUNG TOTAL
+========================= */
+
+function updateSummary() {
+
+    let subtotal = 0;
+
+    cart.forEach(item => {
+
+        subtotal +=
+            item.price * item.quantity;
+
+    });
+
+
+    let discount = 0;
+
+    if (voucherApplied) {
+
+        discount = subtotal * 0.10;
+
+        discountRow.style.setProperty(
+            "display",
+            "flex",
+            "important"
+        );
+
+    } else {
+
+        discountRow.style.setProperty(
+            "display",
+            "none",
+            "important"
+        );
+
+    }
+
+
+    const total = subtotal - discount;
+
+
+    cartSubtotal.textContent =
+        "$" + subtotal.toLocaleString();
+
+    cartDiscount.textContent =
+        "-$" + discount.toLocaleString();
+
+    cartTotal.textContent =
+        "$" + total.toLocaleString();
+}
+
+
+/* =========================
+   VOUCHER
+========================= */
+
+applyVoucher.addEventListener("click", function () {
+
+    const voucher =
+        voucherInput.value.trim().toUpperCase();
+
+
+    if (voucher === "KHALIFGANTENG") {
+
+        if (cart.length === 0) {
+
+            voucherMessage.textContent =
+                "Masukkan barang ke keranjang terlebih dahulu.";
+
+            voucherMessage.className =
+                "d-block mt-2 text-danger";
+
+            return;
+        }
+
+
+        voucherApplied = true;
+
+        voucherMessage.textContent =
+            "Voucher berhasil digunakan! Diskon 10%.";
+
+        voucherMessage.className =
+            "d-block mt-2 text-success";
+
+        voucherInput.disabled = true;
+        applyVoucher.disabled = true;
+
+        updateSummary();
+
+
+    } else {
+
+        voucherApplied = false;
+
+        voucherMessage.textContent =
+            "Kode voucher tidak valid.";
+
+        voucherMessage.className =
+            "d-block mt-2 text-danger";
+
+        updateSummary();
+
+    }
+
+});
+
+
+/* =========================
+   BAYAR
+========================= */
+
+checkoutButton.addEventListener("click", function () {
+
+    if (cart.length === 0) {
+        return;
+    }
+
+    const cartOffcanvasElement =
+        document.getElementById("offcanvasRight");
+
+    const cartOffcanvas =
+        bootstrap.Offcanvas.getInstance(cartOffcanvasElement);
+
+    const transactionModalElement =
+        document.getElementById("transactionSuccessModal");
+
+    const transactionModal =
+        bootstrap.Modal.getOrCreateInstance(
+            transactionModalElement
+        );
+
+    // Tutup offcanvas terlebih dahulu
+    if (cartOffcanvas) {
+
+        cartOffcanvasElement.addEventListener(
+            "hidden.bs.offcanvas",
+            function () {
+
+                transactionModal.show();
+
+                setTimeout(() => {
+                    transactionModal.hide();
+                }, 1500);
+
+            },
+            { once: true }
+        );
+
+        cartOffcanvas.hide();
+
+    } else {
+
+        transactionModal.show();
+
+        setTimeout(() => {
+            transactionModal.hide();
+        }, 1500);
+
+    }
+
+});
+</script>
+
+<div class="modal fade"
+     id="transactionSuccessModal"
+     tabindex="-1"
+     aria-hidden="true">
+
+    <div class="modal-dialog modal-dialog-centered modal-sm">
+        <div class="modal-content">
+
+            <div class="modal-body text-center py-4">
+
+                <i class="bi bi-check-circle fs-1"></i>
+
+                <h5 class="mt-3 mb-1">
+                    Transaksi Berhasil!
+                </h5>
+
+                <p class="mb-0">
+                    Pembayaran berhasil diproses.
+                </p>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script>
+document.querySelectorAll(".buy-now").forEach(button => {
+
+    button.addEventListener("click", function () {
+
+        const productModalElement = this.closest(".modal");
+
+        const productCard = document.querySelector(
+            `[data-bs-target="#${productModalElement.id}"]`
+        )?.closest(".card");
+
+        const productImage =
+            productCard?.querySelector("img")?.src || "";
+
+        const product = {
+            name: this.dataset.product,
+            price: Number(this.dataset.price),
+            image: productImage,
+            quantity: 1
+        };
+
+        // Cek apakah produk sudah ada
+        const existingProduct = cart.find(
+            item => item.name === product.name
+        );
+
+        if (existingProduct) {
+            existingProduct.quantity++;
+        } else {
+            cart.push(product);
+        }
+
+        // Update isi keranjang
+        renderCart();
+
+        // Ambil instance modal produk
+        const productModal =
+            bootstrap.Modal.getInstance(productModalElement);
+
+        // Ambil offcanvas keranjang
+        const cartOffcanvasElement =
+            document.getElementById("offcanvasRight");
+
+        const cartOffcanvas =
+            bootstrap.Offcanvas.getOrCreateInstance(
+                cartOffcanvasElement
+            );
+
+        // Kalau modal produk sedang terbuka,
+        // tutup dulu baru buka keranjang
+        if (productModal) {
+
+            productModalElement.addEventListener(
+                "hidden.bs.modal",
+                function () {
+
+                    cartOffcanvas.show();
+
+                },
+                { once: true }
+            );
+
+            productModal.hide();
+
+        } else {
+
+            cartOffcanvas.show();
+
+        }
+
+    });
+
+});
+</script>
+
+
+<!-- ========================================================= -->
+<!-- 1 MODAL BELI SEKARANG -->
+<!-- ========================================================= -->
+
+<div class="modal fade"
+     id="buyNowModal"
+     tabindex="-1"
+     aria-hidden="true"
+     aria-labelledby="buyNowModalLabel">
+
+    <div class="modal-dialog modal-dialog-centered">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+
+                <h5 class="modal-title" id="buyNowModalLabel">
+                    Beli Sekarang
+                </h5>
+
+                <button type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close">
+                </button>
+
+            </div>
+
+            <div class="modal-body">
+
+                <!--
+                    DATA PRODUK YANG DIPILIH NANTI MASUK DI SINI
+                -->
+
+            </div>
+
+            <div class="modal-footer">
+
+                <button type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal">
+                    Tutup
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<script>
+document.querySelectorAll(".add-to-cart").forEach(button => {
+    button.addEventListener("click", function () {
+
+        const productModalElement = this.closest(".modal");
+        const productModal = bootstrap.Modal.getInstance(productModalElement);
+
+        // Tutup modal produk
+        if (productModal) {
+            productModal.hide();
+        }
+
+        // Setelah modal produk tertutup
+        productModalElement.addEventListener("hidden.bs.modal", function () {
+
+            const cartAddedModalElement =
+                document.getElementById("cartAddedModal");
+
+            const cartAddedModal =
+                new bootstrap.Modal(cartAddedModalElement);
+
+            cartAddedModal.show();
+
+            // Tutup otomatis setelah 1.5 detik
+            setTimeout(() => {
+                cartAddedModal.hide();
+            }, 1500);
+
+        }, { once: true });
+
+    });
+});
+</script>
+
+</section>
+
+<div class="offcanvas offcanvas-end"
+     tabindex="-1"
+     id="appearanceOffcanvas"
+     aria-labelledby="appearanceOffcanvasLabel">
+
+  <div class="offcanvas-header">
+
+    <h5 class="offcanvas-title"
+        id="appearanceOffcanvasLabel">
+        Appearance
+    </h5>
+
+    <button type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close">
+    </button>
+
+  </div>
+
+  <div class="offcanvas-body">
+
+    <div class="d-flex align-items-center justify-content-between">
+
+      <span class="fw-semibold">
+        Theme
+      </span>
+
+      <button class="theme-toggle"
+              id="themeToggle"
+              type="button"
+              aria-label="Toggle dark mode">
+
+        <span class="theme-toggle-slider">
+
+          <i class="bi bi-sun-fill"
+             id="themeIcon">
+          </i>
+
+        </span>
+
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>    
+
+<script>
+const themeToggle = document.getElementById("themeToggle");
+const themeIcon = document.getElementById("themeIcon");
+
+themeToggle.addEventListener("click", () => {
+    themeToggle.classList.toggle("dark");
+    document.body.classList.toggle("dark-mode");
+
+    if (themeToggle.classList.contains("dark")) {
+        themeIcon.classList.remove("bi-sun-fill");
+        themeIcon.classList.add("bi-moon-fill");
+    } else {
+        themeIcon.classList.remove("bi-moon-fill");
+        themeIcon.classList.add("bi-sun-fill");
+    }
+});
+
+document.querySelectorAll(".category-btn").forEach(button => {
+    button.addEventListener("click", function () {
+
+        const category = this.dataset.category;
+
+        // Tampilkan kategori yang dipilih
+        document.querySelectorAll(".product-category").forEach(section => {
+            section.classList.add("d-none");
+        });
+
+        const selectedCategory =
+            document.getElementById(`category-${category}`);
+
+        if (selectedCategory) {
+            selectedCategory.classList.remove("d-none");
+        }
+
+        // Update tombol kategori
+        document.querySelectorAll(".category-btn").forEach(btn => {
+            btn.classList.remove("btn-primary", "active");
+            btn.classList.add("btn-outline-primary");
+        });
+
+        this.classList.remove("btn-outline-primary");
+        this.classList.add("btn-primary", "active");
+    });
+});
+
+
+document.querySelectorAll(".category-link").forEach(link => {
+    link.addEventListener("click", function () {
+
+        const category = this.dataset.category;
+
+        // Cari tombol kategori yang sesuai
+        const categoryButton =
+            document.querySelector(
+                `.category-btn[data-category="${category}"]`
+            );
+
+        // Jalankan tombol kategori
+        if (categoryButton) {
+            categoryButton.click();
+        }
+
+        // Scroll ke bagian Product
+        const productSection =
+            document.getElementById("Product");
+
+        if (productSection) {
+            productSection.scrollIntoView({
+                behavior: "smooth"
+            });
+        }
+    });
+});
+
+document.querySelectorAll(".featured-product").forEach(item => {
+    item.addEventListener("click", function (event) {
+
+        event.preventDefault();
+
+        const category = this.dataset.category;
+
+        const categoryButton =
+            document.querySelector(
+                `.category-btn[data-category="${category}"]`
+            );
+
+        if (categoryButton) {
+            categoryButton.click();
+        }
+
+        document.getElementById("Product").scrollIntoView({
+            behavior: "smooth"
+        });
+    });
+});
+
+</script>
+
+<section class="container py-5" id="FAQ">
+
+    <div class="text-center mb-5">
+        <h2 class="fw-bold">FAQ</h2>
+        <p class="text-secondary">
+            Beberapa pertanyaan yang mungkin ingin Anda tanyakan sebelum membeli.
+        </p>
+    </div>
+
+    <div class="accordion" id="faqAccordion">
+
+        <!-- FAQ 1 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faqOne"
+                    aria-expanded="true"
+                    aria-controls="faqOne">
+                    Produk apa saja yang tersedia?
+                </button>
+            </h2>
+
+            <div
+                id="faqOne"
+                class="accordion-collapse collapse show"
+                data-bs-parent="#faqAccordion">
+
+                <div class="accordion-body">
+                    Kami menyediakan berbagai macam produk audio, mulai dari
+                    TWS, headphone, hingga IEM. Anda bisa memilih produk sesuai
+                    kebutuhan dan budget yang diinginkan.
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- FAQ 2 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faqTwo"
+                    aria-expanded="false"
+                    aria-controls="faqTwo">
+                    Bagaimana cara membeli produk?
+                </button>
+            </h2>
+
+            <div
+                id="faqTwo"
+                class="accordion-collapse collapse"
+                data-bs-parent="#faqAccordion">
+
+                <div class="accordion-body">
+                    Pilih produk yang ingin dibeli, kemudian buka detail
+                    produknya. Setelah itu, klik tombol
+                    <strong>Beli Sekarang</strong>. Produk akan langsung
+                    masuk ke keranjang.
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- FAQ 3 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faqThree"
+                    aria-expanded="false"
+                    aria-controls="faqThree">
+                    Apakah bisa membeli beberapa produk sekaligus?
+                </button>
+            </h2>
+
+            <div
+                id="faqThree"
+                class="accordion-collapse collapse"
+                data-bs-parent="#faqAccordion">
+
+                <div class="accordion-body">
+                    Tentu bisa. Anda dapat memasukkan beberapa produk ke
+                    dalam keranjang. Jumlah produk yang sama juga dapat
+                    diatur melalui tombol <strong>+</strong> dan
+                    <strong>−</strong> di keranjang.
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- FAQ 4 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faqFour"
+                    aria-expanded="false"
+                    aria-controls="faqFour">
+                    Bagaimana cara melihat produk di keranjang?
+                </button>
+            </h2>
+
+            <div
+                id="faqFour"
+                class="accordion-collapse collapse"
+                data-bs-parent="#faqAccordion">
+
+                <div class="accordion-body">
+                    Anda cukup menekan ikon keranjang pada bagian navbar.
+                    Setelah itu, daftar produk yang sudah dipilih akan
+                    ditampilkan beserta jumlah dan total harganya.
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- FAQ 5 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faqFive"
+                    aria-expanded="false"
+                    aria-controls="faqFive">
+                    Apakah tersedia voucher atau diskon?
+                </button>
+            </h2>
+
+            <div
+                id="faqFive"
+                class="accordion-collapse collapse"
+                data-bs-parent="#faqAccordion">
+
+                <div class="accordion-body">
+                    Ya, tersedia voucher yang dapat digunakan pada bagian
+                    keranjang. Masukkan kode voucher yang sesuai, kemudian
+                    tekan tombol untuk menerapkannya.
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+</body>
+</html>

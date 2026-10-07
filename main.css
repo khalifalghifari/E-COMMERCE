@@ -1,0 +1,521 @@
+#carouselExampleControls {
+    width: 20%;
+    max-width: 1000px;
+    aspect-ratio: 16 / 9;
+    margin: auto;
+}
+
+#hero-img {
+    margin-left: 115px;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+    box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+#minisbur {
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+    transform: scale(1.2);
+    margin-top: 50px;
+}
+
+#verdandi {
+    transform: scale(1);
+}
+
+#body-minisbur {
+    height: 495px;
+}
+
+#minisbur-title {
+    margin-top: 10px;
+}
+
+#body-airpods-pro-3 {
+    height: 525px;
+}
+
+#airpods-pro-3-title {
+    margin-top: 20px;
+}
+
+#pro-3nd {
+    margin-top: 25px;
+}
+
+#card-1 {
+    width: 25%;
+}
+
+#mimisbrunnr-card {
+    height: 300px;
+}
+
+#mimisbrunnr-img {
+    width: 100%;
+    height: 130%;
+    object-fit: cover;
+
+}
+
+#mimisbrunnr-a {
+    display: block;
+    position: relative;
+    z-index: 1;
+    width: 90%;
+    height: 100%;
+}
+
+.card-img-overlay {
+    z-index: 2;
+    pointer-events: none;
+}    
+
+#carousel-inner {
+    width: 100%;
+    height: 100%;
+}
+.carousel-control-next-icon
+.carousel-control-prev-icon{
+    width: 5%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 0;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+#LOKI-Divine-Mark-title {
+    margin-top: -20px;
+}
+
+#AirPods-4 {
+    height: 100%
+}
+
+#airpods-4 {
+    margin-top: 20px;
+}
+
+#sony-collection {
+    margin-top: 20px;
+}
+
+.dropdown-menu {
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+
+    transform: scale(0.15);
+    transform-origin: top center;
+
+    border-radius: 25px;
+
+    transition:
+        transform 0.4s cubic-bezier(0.22, 1.4, 0.36, 1),
+        opacity 0.15s ease,
+        border-radius 0.3s ease,
+        visibility 0s linear 0.4s;
+}
+
+.dropdown-menu.show {
+    opacity: 1;
+    visibility: visible;
+
+    transform: scale(1);
+    border-radius: 8px;
+
+    transition:
+        transform 0.4s cubic-bezier(0.22, 1.4, 0.36, 1),
+        opacity 0.15s ease,
+        border-radius 0.3s ease;
+}
+
+.theme-toggle {
+    width: 64px;
+    height: 34px;
+    padding: 3px;
+    border: none;
+    border-radius: 50px;
+    background-color: #e5e7eb;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.theme-toggle-slider {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f59e0b;
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.theme-toggle.dark {
+    background-color: #173b57;
+}
+
+.theme-toggle.dark .theme-toggle-slider {
+    transform: translateX(30px);
+    background-color: #0f1620;
+    color: #a8d8f0;
+}
+
+/* DARK MODE */
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode {
+    background-color: #0f1620;
+    color: #ffffff;
+}
+
+/* Navbar */
+body.dark-mode .navbar {
+    background-color: #0f1620 !important;
+}
+
+/* Text */
+body.dark-mode .text-secondary {
+    color: #a8d8f0 !important;
+}
+
+/* Card */
+body.dark-mode .card {
+    background-color: #17212b;
+    color: #ffffff;
+}
+
+/* Card text */
+body.dark-mode .card-text {
+    color: #cbd5e1;
+}
+
+/* Modal */
+body.dark-mode .modal-content {
+    background-color: #17212b;
+    color: #ffffff;
+}
+
+body.dark-mode .modal .text-secondary {
+    color: #a8d8f0 !important;
+}
+
+/* Offcanvas */
+body.dark-mode .offcanvas {
+    background-color: #0f1620;
+    color: #ffffff;
+}
+
+/* Dropdown */
+body.dark-mode .dropdown-menu {
+    background-color: #17212b;
+}
+
+body.dark-mode .dropdown-item {
+    color: #ffffff;
+}
+
+body.dark-mode .dropdown-item:hover {
+    background-color: #243447;
+}
+
+body.dark-mode .logo {
+    color: #ffffff;
+}
+
+/* Outline button */
+body.dark-mode .btn-outline-dark {
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+body.dark-mode .card-img-overlay {
+    color: #000000;
+}
+
+body.dark-mode .card-img-overlay .card-text {
+    color: #000000;
+}
+
+/* Verdandi & Mimisbrunnr tetap putih */
+body.dark-mode #verdandi.card-img-overlay,
+body.dark-mode #mimisbrunnr-overlay {
+    color: #ffffff;
+}
+
+body.dark-mode #verdandi.card-img-overlay .card-text,
+body.dark-mode #mimisbrunnr-overlay .card-text {
+    color: #ffffff;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+/* TABLET */
+@media (max-width: 991px) {
+
+    /* Carousel */
+    #carouselExampleControls {
+        width: 70%;
+        max-width: 800px;
+    }
+
+    /* Hero */
+    #hero-img {
+        margin-left: 0;
+        width: 100%;
+        max-width: 450px;
+        display: block;
+        margin: 30px auto 0;
+    }
+
+    /* Mimisbrunnr */
+    #minisbur {
+        height: 220px;
+        transform: scale(1.1);
+        margin-top: 35px;
+    }
+
+    #body-minisbur {
+        height: auto;
+        min-height: 495px;
+    }
+
+    /* AirPods */
+    #body-airpods-pro-3 {
+        height: auto;
+        min-height: 525px;
+    }
+
+    #mimisbrunnr-card {
+        height: auto;
+        min-height: 300px;
+    }
+
+    #mimisbrunnr-img {
+        height: auto;
+        max-height: 300px;
+        object-fit: contain;
+    }
+
+    /* Product cards */
+    .card {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+
+/* HP */
+@media (max-width: 767px) {
+
+    /* Carousel */
+    #carouselExampleControls {
+        width: 92%;
+        max-width: none;
+        aspect-ratio: 16 / 9;
+    }
+
+    .carousel-item {
+        border-radius: 12px;
+    }
+
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        width: 12%;
+    }
+
+
+    /* Hero */
+    #hero-img {
+        width: 90%;
+        max-width: 380px;
+        margin: 30px auto 0;
+        display: block;
+    }
+
+
+    /* Hero text */
+    #Home {
+        text-align: center;
+    }
+
+    #Home .btn {
+        margin-top: 5px;
+    }
+
+
+    /* Product cards */
+    #body-minisbur,
+    #body-airpods-pro-3,
+    #mimisbrunnr-card {
+        height: auto;
+        min-height: 0;
+    }
+
+    #minisbur {
+        height: 230px;
+        margin-top: 20px;
+        transform: scale(1.05);
+    }
+
+    #mimisbrunnr-img {
+        width: 100%;
+        height: 250px;
+        object-fit: contain;
+    }
+
+
+    /* Card */
+    .card {
+        width: 100% !important;
+        max-width: 18rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    /* Product section */
+    #Product {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+
+    /* Category buttons */
+    .category-btn {
+        width: 100%;
+        max-width: 280px;
+    }
+
+
+    /* Product title */
+    #LOKI-Divine-Mark-title {
+        margin-top: 0;
+    }
+
+    #airpods-4 {
+        margin-top: 0;
+    }
+
+    #sony-collection {
+        margin-top: 0;
+    }
+
+}
+
+
+/* HP KECIL */
+@media (max-width: 480px) {
+
+    /* Navbar */
+    .navbar-brand {
+        font-size: 1.2rem !important;
+    }
+
+
+    /* Carousel */
+    #carouselExampleControls {
+        width: 95%;
+    }
+
+    .carousel-item {
+        border-radius: 10px;
+    }
+
+
+    /* Hero */
+    #Home {
+        padding-top: 35px !important;
+        padding-bottom: 35px !important;
+    }
+
+    #Home h1 {
+        font-size: 2.3rem;
+    }
+
+    #Home p {
+        font-size: 1rem;
+    }
+
+    #hero-img {
+        width: 95%;
+        margin-top: 25px;
+    }
+
+
+    /* Buttons */
+    #Home .btn {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
+
+    /* Product cards */
+    .card {
+        max-width: 100%;
+    }
+
+
+    /* FAQ */
+    #FAQ {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #FAQ .accordion-button {
+        font-size: 0.95rem;
+    }
+
+
+    /* Modal */
+    .modal-dialog {
+        margin: 10px;
+    }
+
+
+    /* Offcanvas */
+    .offcanvas {
+        width: 90% !important;
+    }
+
+}
+
+
+/* SUPER KECIL */
+@media (max-width: 360px) {
+
+    #Home h1 {
+        font-size: 2rem;
+    }
+
+    #Home .badge {
+        font-size: 0.85rem !important;
+    }
+
+    #carouselExampleControls {
+        width: 100%;
+    }
+
+    .category-btn {
+        font-size: 0.9rem;
+    }
+
+}
