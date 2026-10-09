@@ -245,11 +245,11 @@ body.dark-mode .btn-outline-dark {
 }
 
 body.dark-mode .card-img-overlay {
-    color: #000000;
+    color: #ffffff;
 }
 
 body.dark-mode .card-img-overlay .card-text {
-    color: #000000;
+    color: #ffffff;
 }
 
 /* Verdandi & Mimisbrunnr tetap putih */
@@ -261,6 +261,58 @@ body.dark-mode #mimisbrunnr-overlay {
 body.dark-mode #verdandi.card-img-overlay .card-text,
 body.dark-mode #mimisbrunnr-overlay .card-text {
     color: #ffffff;
+}
+
+body.dark-mode #logo-Audio {
+    color: #ffffff !important;
+}
+
+body.dark-mode #close-button {
+    filter: brightness(0) invert(1);
+}
+
+#Product .card-img-top {
+    transition: transform 0.35s ease;
+    transform-origin: center;
+    cursor: pointer;
+}
+
+#Product .card-img-top:hover {
+    transform: scale(1.15) rotate(2deg);
+}
+
+@media (hover: hover) {
+    #Product .card-img-top:hover {
+        transform: scale(1.15) rotate(2deg);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    #Product .card-img-top {
+        transition: none;
+    }
+}
+
+#product-row .card-img-top {
+    transition: transform 0.35s ease;
+    transform-origin: center;
+    cursor: pointer;
+}
+
+#product-row .card-img-top:hover {
+    transform: scale(1.15) rotate(2deg);
+}
+
+@media (hover: hover) {
+    #product-row .card-img-top:hover {
+        transform: scale(1.15) rotate(2deg);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    #product-row .card-img-top {
+        transition: none;
+    }
 }
 
 /* =========================
